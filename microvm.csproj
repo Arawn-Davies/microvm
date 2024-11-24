@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Target Framework -->
+    <TargetFramework>net8.0</TargetFramework>
+    
+    <!-- Output Type -->
+    <OutputType>Exe</OutputType>
+    
+    <!-- Nullable Checks -->
+    <Nullable>enable</Nullable>
+    
+    <!-- Implicit Usings -->
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- References to any NuGet packages (add here if needed) -->
+    <!-- Example: <PackageReference Include="Newtonsoft.Json" Version="13.0.1" /> -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Project Source Files -->
+    <Compile Include="Source/*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Test Files -->
+    <Compile Include="Tests/**/*.cs" />
+  </ItemGroup>
+
+</Project>
